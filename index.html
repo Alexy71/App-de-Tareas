@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="perfil">
             <div id="fecha"></div>
-            <h1>Hola mundo</h1>
+            <h1>Hola Mundo</h1>
             <span>Vamos a cumplir las metas</span>
         </div>
-        <div class="agregar-tarea">
-            <input type="text" id="input" placeholder="agrega una tarea">
+         
+        <div class="agregarTarea">
+            <input type="text" id="input" placeholder="agregar nueva tarea">
+            <button id="btnEnter">insertar</button>
         </div>
-        <div class="seccion-tarea"></div>    
+        <div class="seccionTarea">
+            <h3>Tareas Pendientes</h3>
+            <ul>
+                <li>
+                    <button id="0">realizado</button>
+                    <p class="text">hacer la tarea de ingles</p>
+                    <button id="0">eliminado</button>
+                </li>
+            </ul>
+        </div>
     </div>
-    </body>
+    
+    <link rel="stylesheet" href="./static/js/script.js">
+</body>
 </html>
