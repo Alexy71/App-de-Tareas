@@ -44,11 +44,12 @@ body{
     border-radius: 15px;
     height: 70px;
     display: flex;
-
+ 
     /*para centrar todos los elementos y no ocupe todo el espacio*/
     align-items: center;
     padding: 10px;
     gap: 70px;
+    margin: 30px;
 }
 .agregarTarea input {
     width: 100%;
@@ -70,4 +71,33 @@ body{
 
 /*Seccion tarea*/
 
+.seccionTarea h3{
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.seccionTarea li{
+    display: flex;
+    background: linear-gradient(to bottom, var(--blue-dark), var(--green));
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    color: var(--white);
+}
+.seccionTarea button{
+    
+     
+}
+.seccionTarea ul p{
+    font-size: 1rem;
+}
 
+.seccionTarea button:hover{
+    color: var(--blue-light);
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through;
+    color: var(--blue-light);
+}
